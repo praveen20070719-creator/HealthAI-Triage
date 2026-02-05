@@ -1,4 +1,5 @@
 import google.generativeai as genai
+import cv2
 
 # 1. Configuration - Use your actual key starting with 'AIzaSy...'
 API_KEY = "AIzaSyAJXxa9LPySqxBrhYzRsNhdfhp0gpcWl8E" 
@@ -49,4 +50,5 @@ if __name__ == "__main__":
             
     except Exception as e:
         print(f"❌ Connection Error: {e}")
+
     print("-" * 30)
